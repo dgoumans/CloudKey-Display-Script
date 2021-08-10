@@ -8,6 +8,7 @@ SSH onto cloudkey
     python3 -m pip install --upgrade Pillow
 
 run display.py every minute to generate and use the new image using crontab (using the `crontab -e `command)
+
     * * * * * python3 ~/display.py
     * * * * * /sbin/ck-splash -f display.png
 
