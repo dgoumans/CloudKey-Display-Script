@@ -10,7 +10,6 @@ MARGIN = 3
 NAME = "Server DG"
 font_path = "NotoSans-Light.ttf"
 
-
 def prep_image():
     # set background
     image = Image.new("RGB", (WIDTH, HEIGHT), "black")
